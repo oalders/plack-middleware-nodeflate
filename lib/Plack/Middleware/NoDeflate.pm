@@ -28,7 +28,7 @@ applications which respect this environment variable.
 =head1 MOTIVATION
 
 L<Plack::Middleware::Debug> does not work with deflated content. In many
-cases, you'll be able to fix this by turning off any deflating in the
+cases, you'll be able to fix this by disabling any deflation in the
 development process, but that's not always the case. Further, if you're trying
 to mangle the response body with your own middleware, you'll find yourself
 with the same problem.
